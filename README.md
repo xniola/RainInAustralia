@@ -1,4 +1,4 @@
-# Rain In Australia
+# Rain in Australia
 
 
 L'obiettivo del progetto è stato quello di costruire un modello predittivo per la previsione delle giornate di pioggia in Australia.
