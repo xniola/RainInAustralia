@@ -7,6 +7,6 @@ Come modello è stato utilizzato un regressore logistico (Logit) mediante la lib
 
 Allo stato dell'arte il modello prevede con una precisione dell'85% se il giorno successivo ci sarà pioggia o meno (regressione binaria).
 
-Inoltre sono state effettuate delle analisi di serie temporali per quanto riguarda alcune feature numeriche del dataset tramite il Vector Autoregression (VAR).
+Inoltre sono state effettuate delle analisi di serie temporali per quanto riguarda alcune feature numeriche del dataset tramite la tecnica del Vector Autoregression (VAR).
 
 E' stato utilizzato il dataset pubblico "Rain in Australia" disponibile su Kaggle (https://www.kaggle.com/jsphyg/weather-dataset-rattle-package).
