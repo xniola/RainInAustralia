@@ -1,12 +1,10 @@
 # Rain in Australia
 
 
-L'obiettivo del progetto è stato quello di costruire un modello predittivo per la previsione delle giornate di pioggia in Australia.
-Il modello è stato allenato tramite i dati metereologici forniti dal dataset ed è in grado di predirre se il giorno dopo ci sarà pioggia o meno.
-Come modello è stato utilizzato un regressore logistico (Logit) mediante la libreria python statsmodels.
+The goal of the project was to build a predictive model for forecasting rainy days in Australia. The model was trained using meteorological data provided by the dataset and is able to predict whether or not there will be rain the next day. A logistic regressor (Logit) was used as the model through the python statsmodels library.
 
-Allo stato dell'arte il modello prevede con una precisione dell'85% se il giorno successivo ci sarà pioggia o meno (regressione binaria).
+At the state of the art, the model predicts with 85% accuracy whether there will be rain or not the next day (binary regression).
 
-Inoltre sono state effettuate delle analisi di serie temporali per quanto riguarda alcune feature numeriche del dataset tramite la tecnica del Vector Autoregression (VAR).
+In addition, time series analyses were performed regarding some numerical features of the dataset using the Vector Autoregression (VAR) technique.
 
-E' stato utilizzato il dataset pubblico "Rain in Australia" disponibile su Kaggle (https://www.kaggle.com/jsphyg/weather-dataset-rattle-package).
+The public dataset "Rain in Australia" available on Kaggle was used. (https://www.kaggle.com/jsphyg/weather-dataset-rattle-package).
